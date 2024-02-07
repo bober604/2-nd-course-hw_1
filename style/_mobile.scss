@@ -1,0 +1,45 @@
+@media (max-width: 767px) {
+    .padding {
+        padding-left: 16px;
+        padding-right: 16px;}
+    .header {
+        height: 735px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &_sag {
+            padding-top: 238px;
+            font-size: 32px;
+            width: 343px;
+            text-align: center;}
+        &_par {
+            width: 343px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 22px;}
+        &_but {
+            margin-top: 32px;
+        }}
+    
+    .game__box {
+        width: 343px;}
+
+    .section-2 {
+        height: 518px;
+        gap: 64px;
+        padding-top: 51px;
+        padding-bottom: 85px;
+        &__time {
+            padding-top: 0px;
+            align-items: center;
+            &_sag {
+                text-align: center;
+                font-size: 32px;}
+            &_par {
+                text-align: center;
+                font-size: 14px;
+                line-height: 22px;}}
+        &_img {
+            width: 344px;
+            height: 236px;}}
+}

@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.padding {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  background-image: url(../img/header.jpg);
+  height: 1024px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header_sag {
+  color: white;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 750px;
+  padding-top: 217px;
+}
+.header_par {
+  margin-top: 32px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  width: 481px;
+}
+.header_par_span {
+  font-weight: 700;
+}
+.header_but {
+  margin-top: 44px;
+  width: 234px;
+  height: 49px;
+  border-radius: 30px;
+  background: #9C0332;
+  border: none;
+  outline: none;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: all 0.3s;
+}
+.header_but:hover {
+  background: #EB443F;
+}
+
+.game {
+  background: #000915;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+.game__item-1 {
+  background-image: url(../img/game1.jpg);
+}
+.game__item-2 {
+  background-image: url(../img/game2.jpg);
+}
+.game__item-3 {
+  background-image: url(../img/game3.jpg);
+}
+.game__box {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 378px;
+  height: 300px;
+  border-radius: 17px;
+}
+.game__box_sag {
+  padding-top: 236.36px;
+  padding-left: 32px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+.game_link {
+  text-decoration: none;
+  transition: all 0.08s;
+}
+.game_link:hover {
+  border-radius: 17px;
+  border: 2px solid #44D2FF;
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
+}
+
+.section-2 {
+  height: 800px;
+  padding-top: 233.5px;
+  background: #000915;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 132px;
+}
+.section-2__time {
+  width: 584px;
+  padding-top: 48.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.section-2__time_sag {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section-2__time_par {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+.section-2__time_but {
+  width: 234.063px;
+  height: 48.603px;
+  border-radius: 30px;
+  background: #9C0332;
+  border: none;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: all 0.3s;
+}
+.section-2__time_but:hover {
+  background: #EB443F;
+}
+.section-2_img {
+  width: 484px;
+  height: 333px;
+}
+
+@media (max-width: 767px) {
+  .padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    height: 735px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header_sag {
+    padding-top: 238px;
+    font-size: 32px;
+    width: 343px;
+    text-align: center;
+  }
+  .header_par {
+    width: 343px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .header_but {
+    margin-top: 32px;
+  }
+  .game__box {
+    width: 343px;
+  }
+  .section-2 {
+    height: 518px;
+    gap: 64px;
+    padding-top: 51px;
+    padding-bottom: 85px;
+  }
+  .section-2__time {
+    padding-top: 0px;
+    align-items: center;
+  }
+  .section-2__time_sag {
+    text-align: center;
+    font-size: 32px;
+  }
+  .section-2__time_par {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .section-2_img {
+    width: 344px;
+    height: 236px;
+  }
+}/*# sourceMappingURL=index.css.map */
