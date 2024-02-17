@@ -109,11 +109,16 @@
 
 
 // Задание 11
+function squareNumbers(numbers) {
+    const result = numbers.map((n) => {
+        return n * n;
+    });
+    return result;
+}
 
-// const result = [14, 6, 7].map((n) => {
-//     return n * n;
-// });
-// console.log(result);
+const numbers = [14, 6, 7];
+const squaredNumbers = squareNumbers(numbers);
+console.log(squaredNumbers);
 
 
 
