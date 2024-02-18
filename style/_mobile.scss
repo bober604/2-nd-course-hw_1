@@ -25,10 +25,9 @@
         width: 343px;}
 
     .section-2 {
-        height: 518px;
+        height: 602px;
         gap: 64px;
         padding-top: 51px;
-        padding-bottom: 85px;
         &__time {
             padding-top: 0px;
             align-items: center;
@@ -42,4 +41,27 @@
         &_img {
             width: 344px;
             height: 236px;}}
-}
+    
+    .section-3 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        padding-top: 51px;
+        gap: 64px;
+        padding-bottom: 90px;
+        &_img {
+            width: 344px;
+            height: 231px;}
+        &__text {
+            padding-top: 0px;
+            align-items: center;
+            &_sag {
+                font-size: 32px;
+                line-height: 39px;
+                text-align: center;}
+            &_par {
+                font-size: 14px;
+                line-height: 22px;
+                text-align: center;}
+            &_but {
+                width: 234px;
+                align-items: center;}}}}

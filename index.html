@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/index.css">
-    <script src="./style/hw-5.js"></script>
+    <script src="style/hw-7.js"></script>
 </head>
 <body class="body">
     <header class="header padding">
@@ -41,7 +41,17 @@
             <p class="section-2__time_par">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
             <button onclick="console.log(getSeason())" class="section-2__time_but">Играть!</button>
         </div>
-        <img class="section-2_img" src="./img/section-2-1.svg" alt="">
-    </section-2>
+        <img class="section-2_img" src="./img/section-2.svg" alt="">
+    </section>
+
+    <section class="section-3 padding">
+        <img class="section-3_img" src="./img/section-3.svg" alt="">
+        <div class="section-3__text">
+            <h1 class="section-3__text_sag">Запомни слова</h1>
+            <p class="section-3__text_par">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+            <button onclick="guessFruits()" class="section-3__text_but">Играть</button>
+        </div>
+    </section>
+
 </body>
 </html>

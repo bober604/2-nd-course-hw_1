@@ -108,8 +108,8 @@
 }
 
 .section-2 {
-  height: 800px;
-  padding-top: 233.5px;
+  height: 567px;
+  padding-top: 233px;
   background: #000915;
   display: flex;
   flex-wrap: wrap;
@@ -160,6 +160,58 @@
   height: 333px;
 }
 
+.section-3 {
+  display: flex;
+  background: #000915;
+  gap: 135px;
+  padding-top: 239px;
+  padding-bottom: 239px;
+}
+.section-3_img {
+  width: 479px;
+  height: 322px;
+}
+.section-3__text {
+  width: 586px;
+  padding-top: 43px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.section-3__text_sag {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58.5px;
+}
+.section-3__text_par {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.section-3__text_but {
+  width: 240px;
+  height: 48.6px;
+  border-radius: 30px;
+  background: #9C0332;
+  border: none;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  transition: all 0.3s;
+}
+.section-3__text_but:hover {
+  background: #EB443F;
+}
+
 @media (max-width: 767px) {
   .padding {
     padding-left: 16px;
@@ -190,10 +242,9 @@
     width: 343px;
   }
   .section-2 {
-    height: 518px;
+    height: 602px;
     gap: 64px;
     padding-top: 51px;
-    padding-bottom: 85px;
   }
   .section-2__time {
     padding-top: 0px;
@@ -211,5 +262,34 @@
   .section-2_img {
     width: 344px;
     height: 236px;
+  }
+  .section-3 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding-top: 51px;
+    gap: 64px;
+    padding-bottom: 90px;
+  }
+  .section-3_img {
+    width: 344px;
+    height: 231px;
+  }
+  .section-3__text {
+    padding-top: 0px;
+    align-items: center;
+  }
+  .section-3__text_sag {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .section-3__text_par {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .section-3__text_but {
+    width: 234px;
+    align-items: center;
   }
 }/*# sourceMappingURL=index.css.map */
